@@ -37,7 +37,7 @@ export const connectSocket = async (
 
     const connectedPromise = new Promise<IsolateSocket | null>((resolve) => {
       log.info(
-        `Connecting to Dart Observatory: ${dartObservatoryURL}`,
+        `Connecting to Dart Observatory by vasu: ${dartObservatoryURL}`,
       );
 
       const socket = new IsolateSocket(dartObservatoryURL);
